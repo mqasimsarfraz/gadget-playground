@@ -1,0 +1,11 @@
+name: "gadget-playground"
+description: Trace chdir syscall attempts
+homepageURL: https://github.com/mqasimsarfraz/gadget-playground
+documentationURL: https://github.com/mqasimsarfraz/gadget-playground#readme
+sourceURL: https://github.com/mqasimsarfraz/gadget-playground
+datasources:
+  events:
+    fields:
+      timestamp:
+        annotations:
+          description: Time the chdir syscall was entered
